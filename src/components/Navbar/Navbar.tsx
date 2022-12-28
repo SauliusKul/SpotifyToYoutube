@@ -11,7 +11,7 @@ export function Navbar(): JSX.Element {
     return (
         <div>
             <IconButton onClick={() => setOpen(true)}>
-                <MenuIcon />
+                <MenuIcon color="success" fontSize='large'/>
             </IconButton>
 
             <Drawer 
@@ -23,10 +23,9 @@ export function Navbar(): JSX.Element {
                 <Box width=''>
                     <List>
                         { links.map(link => 
-                            <ListItem key={link}>
-                                <ListItemButton>
-                                    <ListItemText primary={link}>
-                                    </ListItemText>
+                            <ListItem key={link} className='drawer-item' >
+                                <ListItemButton href='#'>
+                                    <ListItemText primary={link}/>
                                 </ListItemButton>
                             </ListItem>
                         )}

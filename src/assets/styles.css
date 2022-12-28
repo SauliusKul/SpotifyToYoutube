@@ -46,3 +46,13 @@ a:hover {
   justify-content: center;
   align-items: center;
 }
+
+.drawer-item {
+  width: 20vw !important;
+}
+
+@media all and (max-width: 600px) {
+  .drawer-item {
+    width: 45vw !important;
+  }
+}
