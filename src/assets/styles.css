@@ -1,0 +1,48 @@
+:root, body {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 100%;
+  font-weight: 400;
+  
+  display: flex;
+  margin: 0;
+
+  max-width: 60rem;
+}
+
+a {
+  color: green;
+  text-decoration: inherit;
+}
+a:hover {
+  color: wheat;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+}
+
+.background-img {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.login-link {
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.title-container {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
