@@ -27,7 +27,7 @@ export function Landing(): JSX.Element {
             backgroundImage: `url(${imgURL})`
         }}>
             <div className='title-container'>
-                <Link className='login-link' onClick={fetchSpotifyAuthPage} to={pages.home}>Login to Spotify</Link>
+                <Link className='login-link' onClick={fetchSpotifyAuthPage} to={'/'}>Login to Spotify</Link>
             </div>
         </div>
     )
