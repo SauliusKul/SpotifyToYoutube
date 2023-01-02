@@ -16,9 +16,12 @@
     "@emotion/styled": "latest",
     "@mui/icons-material": "^5.11.0",
     "@mui/material": "latest",
+    "@mui/x-data-grid": "^5.17.17",
     "cssnano": "^5.1.14",
     "mui": "latest",
     "postcss-preset-env": "^7.8.3",
+    "query-string": "^8.1.0",
+    "querystring": "^0.2.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.6.0"

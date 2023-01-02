@@ -1,5 +1,5 @@
 :root, body {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-family: Arial, sans-serif;
   font-size: 100%;
   font-weight: 400;
   
@@ -36,7 +36,7 @@ a:hover {
 }
 
 .login-link {
-  font-size: 3em;
+  font-size: clamp(1.5rem, 5vw, 7rem);
   font-weight: bold;
 }
 
@@ -49,10 +49,10 @@ a:hover {
 
 .drawer-item {
   width: 20vw !important;
-}
 
-@media all and (max-width: 600px) {
-  .drawer-item {
-    width: 45vw !important;
+  @media all and (max-width: 700px) {
+    & {
+      width: 40vw !important;
+    }
   }
 }
