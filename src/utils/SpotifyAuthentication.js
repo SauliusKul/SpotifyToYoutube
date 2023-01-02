@@ -8,7 +8,7 @@
 //     paramsString.set('redirect_uri', 'http://localhost:5173/');
 //     paramsString.set('response_type', 'code');
 //     paramsString.set('state', 'AFASDGASG');
-    
+
 //     const response = await fetch(url + paramsString, {
 //         headers: {
 //             'Access-Control-Allow-Origin': '*'

@@ -1,5 +1,5 @@
 export const pages = {
-    landing: '/',
-    login: '/login',
-    home: '/home',
-}
+  landing: '/',
+  login: '/login',
+  home: '/home'
+};

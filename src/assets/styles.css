@@ -1,8 +1,9 @@
-:root, body {
+:root,
+body {
   font-family: Arial, sans-serif;
   font-size: 100%;
   font-weight: 400;
-  
+
   display: flex;
   margin: 0;
 
@@ -56,3 +57,42 @@ a:hover {
     }
   }
 }
+
+.playlist-display-container {
+    height: 50%;
+    width: 80%;
+    background-color: black;
+    opacity: 80%;
+    color: white;
+
+    @media all and (max-width: 700px) {
+      & {
+        width: 100%;
+      }
+    }
+}
+
+.MuiTablePagination-actions, .MuiTablePagination-displayedRows, .PrivateSwitchBase-input {
+  color: white;
+}
+
+.convert-button {
+  margin-top: 10px;
+  background-color: black;
+  color: white;
+  font-size: large;
+}
+.convert-button:hover {
+  background-color: #213547;
+}
+
+.convert-button-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: right;
+}
+
+.PrivateSwitchBase-input {  
+  border: 1px solid red !important;
+  background-color: #ffffff;
+}  
